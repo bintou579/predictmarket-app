@@ -20,9 +20,9 @@ A LSTM model used to predict the closing price of a single company.
 
 ## Predictions
 
-![GitHub Logo](/images/Result_final.PNG)
+![GitHub Logo](Result_final.PNG)
 
-![GitHub Logo](/images/Data_predict.PNG)
+![GitHub Logo](Data_predict.PNG)
 
 # Requirement
 Keras
