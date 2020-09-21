@@ -16,7 +16,7 @@ In this repository, you will find the following notebook:
 A LSTM model used to predict the closing price of a single company. 
 
 ## RMSE
-![GitHub Logo](/images/RMSE.PNG)
+![GitHub Logo](RMSE.PNG)
 
 ## Predictions
 
