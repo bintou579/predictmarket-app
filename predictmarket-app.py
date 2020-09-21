@@ -20,7 +20,7 @@ def main():
         st.title("Stock Market Predictions with LSTM")
         st.subheader("Stok Market for SANOFI within the last 10 years")
         st.markdown("The goal of this project is to predict with the model LSTM the closing stock price of a corporation SANOFI using the the past 10 years.")
-        image = Image.open("C:/Users/utilisateur/Downloads/IA simplon/Projets/Trading-App/images/image_acceuil.PNG")
+        image = Image.open("image_acceuil.PNG")
         st.image(image, use_column_width=True)
         st.title("Data from Yahoo's Finance API")
         st.dataframe(df)
@@ -39,19 +39,19 @@ def main():
         st.title('Modelling')
         st.subheader('We are going to predict a closing price with LSTM network')
         st.subheader('RMSE')
-        img1 = Image.open("C:/Users/utilisateur/Downloads/IA simplon/Projets/predictmarket-app/images/RMSE.PNG")
+        img1 = Image.open("RMSE.PNG")
         st.image(img1, use_column_width=True)
         st.subheader('Visualize the predicted stock price with original stock price')
         st.markdown("The exact price points from our predicted price is close to the actual price")
-        img = Image.open("C:/Users/utilisateur/Downloads/IA simplon/Projets/predictmarket-app/images/Result_final.PNG")
+        img = Image.open("Result_final.PNG")
         st.image(img, use_column_width=True)
         st.subheader('Original stock price & Stock Price Prediction')
-        img2 = Image.open("C:/Users/utilisateur/Downloads/IA simplon/Projets/predictmarket-app/images/Data_predict.PNG")
+        img2 = Image.open("Data_predict.PNG")
         st.image(img2, use_column_width=True)
 
 @st.cache
 def load_data():
-    return pd.read_csv("C:/Users/utilisateur/Downloads/IA simplon/Projets/predictmarket-app/CSV/history_stock_Sanofi.csv")
+    return pd.read_csv("history_stock_Sanofi.csv")
 
 if __name__ == '__main__':
     main()
