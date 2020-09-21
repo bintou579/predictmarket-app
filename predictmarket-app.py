@@ -9,12 +9,6 @@ import math
 
 
 
-@st.cache
-def load_data():
-    return pd.read_csv("C:/Users/utilisateur/Downloads/IA simplon/Projets/predictmarket-app/CSV/history_stock_Sanofi.csv")
-
-
-df = load_data()
 
 def main():
 
@@ -54,6 +48,10 @@ def main():
         st.subheader('Original stock price & Stock Price Prediction')
         img2 = Image.open("C:/Users/utilisateur/Downloads/IA simplon/Projets/predictmarket-app/images/Data_predict.PNG")
         st.image(img2, use_column_width=True)
+
+@st.cache
+def load_data():
+    return pd.read_csv("C:/Users/utilisateur/Downloads/IA simplon/Projets/predictmarket-app/CSV/history_stock_Sanofi.csv")
 
 if __name__ == '__main__':
     main()
