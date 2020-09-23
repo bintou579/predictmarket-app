@@ -24,6 +24,10 @@ A LSTM model used to predict the closing price of a single company.
 
 ![GitHub Logo](Data_predict.PNG)
 
+## App web Heroku
+
+https://predictmarket-app.herokuapp.com/
+
 # Requirement
 Keras
 
